@@ -1,0 +1,30 @@
+2024-06-19T21:38:09.015+05:30  INFO 10252 --- [02-SB-web-actuators] [main] com.javaexpress.Application              : Starting Application using Java 17.0.5 with PID 10252 (F:\35\35_springboot_workspace\02-SB-web-actuators\target\classes started by Bhaskar in F:\35\35_springboot_workspace\02-SB-web-actuators)
+2024-06-19T21:38:09.021+05:30  INFO 10252 --- [02-SB-web-actuators] [main] com.javaexpress.Application              : No active profile set, falling back to 1 default profile: "default"
+2024-06-19T21:38:11.221+05:30  INFO 10252 --- [02-SB-web-actuators] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-19T21:38:11.272+05:30  INFO 10252 --- [02-SB-web-actuators] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 34 ms. Found 0 JPA repository interfaces.
+2024-06-19T21:38:12.770+05:30  INFO 10252 --- [02-SB-web-actuators] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
+2024-06-19T21:38:12.795+05:30  INFO 10252 --- [02-SB-web-actuators] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-19T21:38:12.796+05:30  INFO 10252 --- [02-SB-web-actuators] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-19T21:38:12.939+05:30  INFO 10252 --- [02-SB-web-actuators] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-19T21:38:12.940+05:30  INFO 10252 --- [02-SB-web-actuators] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3804 ms
+2024-06-19T21:38:13.232+05:30  INFO 10252 --- [02-SB-web-actuators] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-06-19T21:38:13.666+05:30  INFO 10252 --- [02-SB-web-actuators] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:arjundb user=DIVYA
+2024-06-19T21:38:13.669+05:30  INFO 10252 --- [02-SB-web-actuators] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-06-19T21:38:13.698+05:30  INFO 10252 --- [02-SB-web-actuators] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:arjundb'
+2024-06-19T21:38:14.242+05:30  INFO 10252 --- [02-SB-web-actuators] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-19T21:38:14.385+05:30  INFO 10252 --- [02-SB-web-actuators] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.8.Final
+2024-06-19T21:38:14.487+05:30  INFO 10252 --- [02-SB-web-actuators] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-06-19T21:38:15.067+05:30  INFO 10252 --- [02-SB-web-actuators] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-19T21:38:15.931+05:30  INFO 10252 --- [02-SB-web-actuators] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-19T21:38:15.947+05:30  INFO 10252 --- [02-SB-web-actuators] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-19T21:38:16.092+05:30  WARN 10252 --- [02-SB-web-actuators] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-19T21:38:17.813+05:30  INFO 10252 --- [02-SB-web-actuators] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2024-06-19T21:38:18.042+05:30  INFO 10252 --- [02-SB-web-actuators] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path ''
+2024-06-19T21:38:18.084+05:30  INFO 10252 --- [02-SB-web-actuators] [main] com.javaexpress.Application              : Started Application in 9.976 seconds (process running for 11.477)
+2024-06-19T21:38:18.937+05:30  INFO 10252 --- [02-SB-web-actuators] [RMI TCP Connection(9)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-19T21:38:18.937+05:30  INFO 10252 --- [02-SB-web-actuators] [RMI TCP Connection(9)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-06-19T21:38:18.940+05:30  INFO 10252 --- [02-SB-web-actuators] [RMI TCP Connection(9)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-06-19T21:38:49.694+05:30  INFO 10252 --- [02-SB-web-actuators] [RMI TCP Connection(11)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-06-19T21:38:49.749+05:30  INFO 10252 --- [02-SB-web-actuators] [RMI TCP Connection(11)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-19T21:38:49.754+05:30  INFO 10252 --- [02-SB-web-actuators] [RMI TCP Connection(11)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-06-19T21:38:49.762+05:30  INFO 10252 --- [02-SB-web-actuators] [RMI TCP Connection(11)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
