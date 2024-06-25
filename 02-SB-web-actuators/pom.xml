@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.javaexpress</groupId>
 	<artifactId>02-SB-web-actuators</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1-RELEASE</version>
 	<name>02-SB-web-actuators</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
